@@ -21,6 +21,15 @@ Clinical operations observation tool for tracking patient workflows in real-time
 - AI-powered analysis to identify bottlenecks and suggest improvements
 - Export AI analysis to a markdown file
 
+📥 **Data Import**
+- Import previously exported observation data from Excel
+- Merge records from multiple users or devices
+- Automatic step duration validation
+
+⚙️ **System Monitoring**
+- Built-in status check for Supabase and Vertex AI connections
+- Admin-specific detailed diagnostic views
+
 ⏱️ **Timer & Timestamps**
 - Large, tablet-optimized "Next Step" button
 - Automatic timestamp logging for each step transition
@@ -210,7 +219,7 @@ For a complete step-by-step guide, please see the **Deployment Guide**.
 ## Project Structure
 
 ```
-Aegis-Time-AI/
+Temporiq-AI/
 ├── app.py                          # Main application
 ├── requirements.txt                # Python dependencies
 ├── README.md                       # This file
@@ -294,15 +303,6 @@ streamlit run app.py
 - Verify `timestamps` column exists in instances table
 - Clear browser cache and reload
 
-## Future Enhancements
-
-- 📈 Analytics dashboard with workflow metrics
-- 🔔 Alert system for instances taking too long
-- 👥 Multi-user support with role-based access
-- 📱 Native mobile app
-- 🤖 AI-powered workflow suggestions
-- 📊 Export to CSV/PDF reports
-
 ## Contributing
 
 We welcome contributions! If you've made changes locally and want to save them to your GitHub repository, follow these steps. This is the standard process for committing and pushing code.
@@ -334,11 +334,3 @@ After pushing, you should see all your project files appear in your repository o
 ## License
 
 MIT License - See LICENSE file for details
-
-## Support
-
-For issues or questions, please open a GitHub issue or email support@aegistimeai.com
-
----
-
-Built with ❤️ for clinical operations teams
